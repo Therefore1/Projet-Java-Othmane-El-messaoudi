@@ -6,7 +6,6 @@ public class Main {
 
         try {
 
-            // 👨‍💼 Employé fixe
             Employe e1 = new EmployeFixe(
                     1,
                     "Ahmed",
@@ -17,7 +16,6 @@ public class Main {
                     1000
             );
 
-            // ⏱️ Employé horaire
             Employe e2 = new EmployeHoraire(
                     2,
                     "Othmane",
